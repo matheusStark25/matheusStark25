@@ -22,7 +22,7 @@
 - 🧠 I approach every challenge with a **business-owner mindset** — I don't just write code, I solve the *right* problems
 - 🤖 Specialized in **AI agents, RPA automation, and multi-agent architectures** for real-world enterprise use
 - 🌍 Based in **Pouso Alegre, MG, Brazil** — open to **remote opportunities worldwide**
-- 🎓 B.S. in Information Systems at Anhanguera Educacional (2024–2028)
+- 🎓 B.S. in Information Systems at Anhanguera Educacional (2024–2027)
 - 💬 Languages: **Portuguese** (Native) · **English** (Professional/B2)
 - ⚡ Fun fact: I built a production-grade accounting AI agent that resolves **95% of cases automatically**
 
