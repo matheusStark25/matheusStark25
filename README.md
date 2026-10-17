@@ -18,7 +18,7 @@
 
 ### 🧭 About Me
 
-- 🔭 I'm a **Backend Software Engineer** at **Grupo 3L**, building AI-powered automation systems
+- 🔭 I'm a **Backend Software Engineer**, building AI-powered automation systems
 - 🧠 I approach every challenge with a **business-owner mindset** — I don't just write code, I solve the *right* problems
 - 🤖 Specialized in **AI agents, RPA automation, and multi-agent architectures** for real-world enterprise use
 - 🌍 Based in **Pouso Alegre, MG, Brazil** — open to **remote opportunities worldwide**
