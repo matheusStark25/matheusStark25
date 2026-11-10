@@ -99,6 +99,8 @@
 </div>
 
 > **Multi-agent AI platform for Brazilian payroll and accounting**, built solo in 2026: architecture, security, tests, CI and the interface.
+>
+> The domain is Brazilian payroll; the engineering is universal. Tool calling over deterministic code, guardrails, PII pseudonymization and a tamper-evident audit trail apply anywhere a wrong number costs money: fintech, insurance, healthcare, legal.
 
 > [!IMPORTANT]
 > **The rule behind it: the LLM never does the math.** It picks one of 6 tools (function calling), and a deterministic decimal engine computes every amount with the official tables. Missing data means ask or refuse, never guess.
@@ -132,6 +134,10 @@ flowchart TD
     class F saida
 ```
 
+<details>
+<summary><b>🧩 See all features</b> (architecture, security, RPA, calculations, voice, observability)</summary>
+<br>
+
 | Feature | Details |
 |---------|---------|
 | 🤖 **Multi-Agent Architecture** | TaxAgent, ValidationAgent, ReconciliationAgent, ComplianceAgent and RPAAgent, coordinated by an orchestrator that chains up to 10 steps |
@@ -144,6 +150,8 @@ flowchart TD
 | 🎙️ **Voice Interface** | Whisper speech-to-text over WebSocket, spoken replies and 2 personas (Maria Helena and Marcos) |
 | 📈 **Observability** | Prometheus metrics, Alertmanager alerts and a Grafana dashboard |
 | ✅ **Quality & Delivery** | 1,000+ automated tests (unit, API and Playwright end-to-end) and a 5-job GitHub Actions CI with bandit, gitleaks, trivy and pip-audit that boots the full Docker Compose stack |
+
+</details>
 
 <details>
 <summary><b>📸 See it running</b> (desktop and phone)</summary>
