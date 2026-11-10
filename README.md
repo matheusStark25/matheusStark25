@@ -112,8 +112,8 @@
 #### ⚙️ How it works
 
 ```mermaid
-flowchart LR
-    A["💬 Chat<br/>🎙️ Voice<br/>📄 Document"] --> B["🛡️ Guardrails<br/>injection screening<br/>CPF/CNPJ → placeholders"]
+flowchart TD
+    A["💬 Chat · 🎙️ Voice · 📄 Document"] --> B["🛡️ Guardrails<br/>injection screening<br/>CPF/CNPJ → placeholders"]
     B --> C{"🤖 LLM picks<br/>1 of 6 tools"}
     C -- "data missing" --> D["❓ Ask or refuse<br/>never guess"]
     C -- "tool call" --> E["🧮 Decimal engine<br/>official tables"]
