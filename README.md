@@ -25,7 +25,7 @@
 
 - 🔭 I'm a **Software Engineer (AI / Backend)**, building LLM agents that are safe to trust with money and personal data
 - 🧠 I approach every challenge with a **business-owner mindset** — I don't just write code, I solve the *right* problems
-- 🤖 Specialized in **AI agents, LLM tool calling, multi-agent architectures and RPA with a human in the loop**
+- 🤖 Specialized in **AI agents, LLM tool calling, MCP servers, multi-agent architectures and RPA with a human in the loop**
 - 🌍 Based in **Ipuiúna, MG, Brazil (UTC-3)** — open to **remote opportunities worldwide** and **relocation**
 - 🎓 B.S. in Information Systems at Anhanguera Educacional (2024–2027)
 - 📜 [AWS Academy Graduate – Generative AI Foundations](https://www.credly.com/badges/311d10f3-dbf3-4368-9633-f3136589656e) (2026)
@@ -51,6 +51,7 @@
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![Whisper](https://img.shields.io/badge/Whisper-412991?style=flat-square&logo=openai&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP_%28Model_Context_Protocol%29-1C1C1C?style=flat-square&logo=modelcontextprotocol&logoColor=white)
 
 #### Databases & Cache
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
@@ -147,6 +148,7 @@ flowchart TD
 | 📊 **Financial Calculations** | Rescisão, 13º salary, férias, FGTS, INSS, IRRF, payroll, pró-labore, GPS, DAS-MEI and DARF with SELIC |
 | 🛡️ **Prompt-Injection Defense** | Input screening (hidden Unicode included), sanitized tool output, canary-based leak detection and quarantine of suspicious documents |
 | 🔒 **Security & Privacy** | CPF/CNPJ pseudonymized before any model call, 2FA (TOTP), JWT revocation, RBAC per company, HMAC-SHA256 audit trail, AES-256-GCM, HashiCorp Vault, mTLS and post-quantum crypto |
+| 🔌 **MCP Server** | The same tools served over the Model Context Protocol (stdio, no SDK) to Claude Desktop, Cursor and other MCP clients, with the chat's output shielding and PII placeholders |
 | 🎙️ **Voice Interface** | Whisper speech-to-text over WebSocket, spoken replies and 2 personas (Maria Helena and Marcos) |
 | 📈 **Observability** | Prometheus metrics, Alertmanager alerts and a Grafana dashboard |
 | ✅ **Quality & Delivery** | 1,000+ automated tests (unit, API and Playwright end-to-end) and a 5-job GitHub Actions CI with bandit, gitleaks, trivy and pip-audit that boots the full Docker Compose stack |
